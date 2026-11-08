@@ -1,0 +1,13 @@
+{
+  "name": "spf-dmarc-builder",
+  "version": "1.0.0",
+  "description": "Builds SPF and DMARC TXT records with duplicate handling, 255-character splitting and plain warnings. No dependencies.",
+  "main": "spf-dmarc-builder.js",
+  "private": true,
+  "scripts": { "test": "node tests/run.js" },
+  "keywords": ["spf", "dmarc", "email", "dns", "txt-record", "spoofing"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/examineip/spf-dmarc-builder.git" },
+  "homepage": "https://tools.examineip.com/spf-dmarc-generator/",
+  "engines": { "node": ">=18" }
+}
